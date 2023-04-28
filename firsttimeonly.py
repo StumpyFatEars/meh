@@ -13,11 +13,9 @@ time.sleep(2)
 
 f = open("__.txt", "r")
 if (f.read(5)) == "x8Tk0":
-	print("Welcome!")
 	firsttime = False
 
 elif (f.read(5)) == "":
-	print("That Was Your First Time!")
 	firsttime = True
 
 else:
