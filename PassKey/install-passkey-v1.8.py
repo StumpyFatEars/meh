@@ -22,8 +22,8 @@ def download(url: str, dest_folder: str):
 		print("Download failed: status code {}\n{}".format(r.status_code, r.text))
 
 
-download("https://github.com/StumpyFatEars/meh/raw/main/favicon.ico", dest_folder="\\PassKey\\")
-download("https://github.com/StumpyFatEars/meh/raw/main/firsttimeonly.py",dest_folder="\\PassKey\\")
-download("https://github.com/StumpyFatEars/meh/raw/main/login.py",dest_folder="\\PassKey\\")
-download("https://github.com/StumpyFatEars/meh/raw/main/register.py",dest_folder="\\PassKey\\")
-download("https://github.com/StumpyFatEars/meh/raw/main/passkey-v1.8.py",dest_folder="\\PassKey\\")
+download("https://github.com/StumpyFatEars/meh/raw/main/PassKey/favicon.ico", dest_folder="\\PassKey\\")
+download("https://github.com/StumpyFatEars/meh/raw/main/PassKey/firsttimeonly.py",dest_folder="\\PassKey\\")
+download("https://github.com/StumpyFatEars/meh/raw/main/PassKey/login.py",dest_folder="\\PassKey\\")
+download("https://github.com/StumpyFatEars/meh/raw/main/PassKey/register.py",dest_folder="\\PassKey\\")
+download("https://github.com/StumpyFatEars/meh/raw/main/PassKey/passkey-v1.8.py",dest_folder="\\PassKey\\")
