@@ -142,7 +142,7 @@ def user_not_found():
  
 def delete_login_success():
 	login_success_screen.withdraw()
-	os.system("v7.py")
+	os.system("passkey-v1.8.py")
  
  
 def delete_password_not_recognised():
